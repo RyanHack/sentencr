@@ -1,5 +1,9 @@
+const formication = document.querySelector("form")
+const button = document.querySelector("button")
 
+formication.addEventListener("submit", submission)
 
+function submission(event)
 
 fetch("http://words.bighugelabs.com/api/2/a872a264aa49d0016e40aec5ac21215e/")
     .then(function (response) {
