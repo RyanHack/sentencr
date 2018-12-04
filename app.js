@@ -1,6 +1,6 @@
 const formication = document.querySelector("form")
 const button = document.querySelector("button")
-const synsOfTheZaddy = document.querySelector("synsOfTheZaddy")
+const synsOfTheZaddy = document.getElementById("synsOfTheZaddy")
 const input = document.querySelector("input")
 
 button.addEventListener("click", submission)
@@ -10,7 +10,6 @@ function submission(click) {
     event.preventDefault()
     const syn = input.value
     getSyns(syn)
-    console.log()
 }
 
 function getSyns(syn) {
