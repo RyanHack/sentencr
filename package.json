@@ -1,0 +1,19 @@
+{
+  "name": "sentencr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanHack/sentencr.git"
+  },
+  "author": "R&R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanHack/sentencr/issues"
+  },
+  "homepage": "https://github.com/RyanHack/sentencr#readme"
+}
